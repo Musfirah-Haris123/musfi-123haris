@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit and Slim gym</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='gym.css')}}"
+  </head>
+  <body>
+      <header>
+          <div class="container">
+              <h1 class="logo">Fit and slim gym</h1>
+              <a href="{{url_for('Home')}}" class="logo">💪 Fit & Slim Gym</a>
+              <nav>
+               <ul>
+               <li><a href="{{url_for('Home')}}">Home</a></li>
+               <li><a href="{{url_for('AboutUs')}}">About </a></li>
+               <li><a href="{{url_for('Membership')}}">Membership</a></li>
+               
+               </ul>
+              </nav>
+          </header>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>FitZone is a modern gym dedicated to helping you become your best self. We offer personalized training, cutting-edge equipment, and a supportive community that motivates you every day.</p>
+        <p>Our mission is to make fitness fun, accessible, and part of your lifestyle. Whether you're a beginner or a pro, we’re here to support your journey.</p>
+      </section>
+      
+      <section id="services" class="section">
+        <h2>Our Services</h2>
+        <ul class="services-list">
+          <li>💪 Personal Training</li>
+          <li>🏃‍♀️ Group Fitness Classes</li>
+          <li>🧘 Yoga & Meditation</li>
+          <li>🥗 Nutrition Coaching</li>
+          <li>🧼 Clean, Sanitized Facilities</li>
+          <li>📱 Online Workout Plans</li>
+        </ul>
+    <p>Fit and slim is a modern gym focused on helping you achieve and we have such a great enviroment for you to acheive your altimate fitness goal</p>
+    </section>
+</body>

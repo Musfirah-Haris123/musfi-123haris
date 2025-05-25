@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit and Slim gym</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='gym.css')}}"
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Fit and slim gym</h1>
+            <a href="{{url_for('Home')}}" class="logo">💪 Fit & Slim Gym</a>
+            <nav>
+             <ul>
+             <li><a href="{{url_for('Home')}}">Home</a></li>
+             <li><a href="{{url_for('AboutUs')}}">About </a></li>
+             <li><a href="{{url_for('Membership')}}">Membership</a></li>
+             
+             </ul>
+            </nav>
+        </header>
+    <script src="script.js"></script>
+    <section id = "pricing" class="section">
+       <h2> Monthly Packages</h2>
+
+       <div class="pricing-container">
+           <div class="package">
+               <h3>Basic</h3>
+               <p>Rs:999/month</p>
+               <ul>
+                   <li>Access to Gym equipment</li>
+                   <li>Locker facility</li>
+                   <li>1 Free Personal Training Session</li>
+                   </ul>
+           </div>
+
+           <div class="package">
+               <h3>Standard</h3>
+               <p>Rs:1400/month</p>
+               <ul>
+                <li>Everything is basic</li>
+                                    <li>Unlimited Group Classes</li>
+                                    <li>Diet plan consultation</li>
+                                    </ul>
+                                    </div>
+
+
+                                    <div class="package">
+                                        <h3>Premium</h3>
+                                        <p>Rs:2500</p>
+                                        <ul>
+                                            <li>Everything in standard</li>
+                                            <li>Personal Trainer(Daily)</li>
+                                            <li>Home Workout App</li>
+                                            </ul>
+                                            </div>
+
+</body>
